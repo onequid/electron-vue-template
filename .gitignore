@@ -5,3 +5,5 @@ build
 .vscode
 .idea
 *.code-workspace
+
+package-lock.json
