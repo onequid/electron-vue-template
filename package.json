@@ -10,10 +10,10 @@
     "build:mac": "node scripts/build.js && electron-builder --mac",
     "build:linux": "node scripts/build.js && electron-builder --linux"
   },
-  "repository": "https://github.com/deluze/electron-vue-template",
+  "repository": "https://gitee.com/onequid/electron-vue-template",
   "author": {
-    "name": "Deluze",
-    "url": "https://github.com/Deluze"
+    "name": "onequid",
+    "url": "https://github.com/onequid"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
@@ -25,6 +25,8 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "element-plus": "^2.3.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   }
 }
